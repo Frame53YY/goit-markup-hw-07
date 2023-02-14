@@ -1,0 +1,71 @@
+@media screen and (min-width:768px) {
+	.container {
+		max-width: 768px;
+	}
+
+	/* Description */
+
+	.descr-list {
+		column-gap: 24px;
+	}
+
+	.descr-list .title {
+		text-align: left;
+	}
+
+	.descr-list .item {
+		width: calc((100% - 24px) / 2);
+	}
+
+	/* Team */
+
+	.team-list {
+		column-gap: 24px;
+		row-gap: 64px;
+	}
+
+	/* Customers */
+
+	.customers-list {
+		column-gap: 24px;
+		padding-right: 92px;
+		padding-left: 92px;
+	}
+
+	.customers-list li {
+		width: calc((100% - 48px) / 3);
+	}
+
+	/* Footer */
+
+	.footer .container {
+		display: flex;
+		flex-wrap: wrap;
+		text-align: left;
+		justify-content: left;
+		padding-right: 107px;
+		padding-left: 107px;
+	}
+
+	.footer-container {
+		margin-right: 24px;
+	}
+
+	.footer-logo {
+		text-align: left;
+	}
+
+		.footer .text {
+			width: 264px;
+		}
+
+	.footer-form {
+		display: flex;
+		align-items: center;
+	}
+
+	.footer-form input {
+		width: 264px;
+		margin-bottom: 0;
+	}
+}
