@@ -7,6 +7,32 @@
 		padding-top: 120px;
 		padding-bottom: 120px;
 	}
+/* Logo */
+.logo {
+	line-height: 1.33;
+}
+
+.contacts {
+	flex-wrap: unset;
+	margin-left: auto;
+}
+
+.contacts .item+.item {
+	margin-left: 40px;
+}
+
+		/* Hero */
+	
+		.hero {
+			padding-top: 188px;
+			padding-bottom: 188px;
+	
+			min-height: 600px;
+		}
+	
+		.hero-title {
+			margin-bottom: 48px;
+		}
 
 	.descr-list .item {
 		width: calc((100% - 72px) / 4);
