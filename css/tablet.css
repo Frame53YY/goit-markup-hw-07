@@ -78,6 +78,10 @@
 		display: none;
 	}
 
+	.mob-container {
+		display: none;
+	}
+
 	/* Hero */
 
 	.hero {
@@ -161,4 +165,8 @@
 		width: 264px;
 		margin-bottom: 0;
 	}
+
+		.modal {
+			min-width: 408px;
+		}
 }
