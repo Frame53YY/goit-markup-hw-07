@@ -3,6 +3,10 @@
 		max-width: 768px;
 	}
 
+		.padding {
+			padding-top: 64px;
+			padding-bottom: 96px;
+		}
 	.logo {
 		padding: 0;
 	}
@@ -91,16 +95,16 @@
 		min-height: 436px;
 
 		background-image: var(--gradient),
-				url("../images/people-office-desc.jpg");
+			url("../images/people-office-desc.jpg");
 	}
-	
-		@media (min-device-pixel-ratio: 2),
-		(min-resolution: 192dpi),
-		(min-resolution: 2dppx) {
-			.hero {
-				background-image: var(--gradient), url(../images/people-office-desc@2x.jpg);
-			}
+
+	@media (min-device-pixel-ratio: 2),
+	(min-resolution: 192dpi),
+	(min-resolution: 2dppx) {
+		.hero {
+			background-image: var(--gradient), url(../images/people-office-desc@2x.jpg);
 		}
+	}
 
 	.hero-title {
 		margin-bottom: 40px;
@@ -144,6 +148,32 @@
 		width: calc((100% - 48px) / 3);
 	}
 
+	/* Filter */
+
+	.filter {
+		width: 100%;
+		column-gap: 24px;
+		row-gap: 16px;
+		justify-content: center;
+
+		margin-bottom: 64px;
+	}
+
+	/* Example */
+
+	.work-list {
+		row-gap: 72px;
+		column-gap: 24px;
+	}
+
+	.work-list .item {
+		width: 356px;
+	}
+
+	.button {
+		padding: 12px 24px;
+	}
+
 	/* Footer */
 
 	.footer .container {
@@ -177,7 +207,7 @@
 		margin-bottom: 0;
 	}
 
-		.modal {
-			min-width: 408px;
-		}
+	.modal {
+		min-width: 408px;
+	}
 }

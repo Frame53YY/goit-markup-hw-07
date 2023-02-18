@@ -16,7 +16,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="css/styles.css" />
-		<link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
     <link rel="stylesheet" href="css/tablet.css" />
     <link rel="stylesheet" href="css/desctop.css" />
   </head>
@@ -130,7 +130,7 @@
     </header>
 
     <main>
-      <section class="section toppadding">
+      <section class="section padding">
         <div class="container">
           <h1 class="section-title secret-name">Portfolio</h1>
           <!--Filter-->
@@ -157,13 +157,57 @@
           <ul class="work-list list">
             <li class="item">
               <div class="work-thumb">
-                <img
-                  class="image"
-                  src="./images/banking_app.jpg"
-                  alt="Interface of banking app"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/baking_app_desktop.webp    1x,
+                      ./images/baking_app_desktop@2x.webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/baking_app_desktop.jpg    1x,
+                      ./images/baking_app_desktop@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/baking_app_tablet.webp    1x,
+                      ./images/baking_app_tablet@2x.webp 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/baking_app_tablet.jpg    1x,
+                      ./images/baking_app_tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/baking_app_mobile.webp    1x,
+                      ./images/baking_app_mobile@2x.webp 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/baking_app_mobile.jpg    1x,
+                      ./images/baking_app_mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    class="image"
+                    src="./images/baking_app_mobile.jpg"
+                    alt="Interface of banking app"
+                    width="396"
+                    height="300"
+                  />
+                </picture>
                 <div class="work-overlay">
                   <div class="work-descr">
                     <p>
@@ -181,13 +225,57 @@
             </li>
             <li class="item">
               <div class="work-thumb">
-                <img
-                  class="image"
-                  src="./images/qr.jpg"
-                  alt="Scanning QR code"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/cashless_payment_desktop.webp    1x,
+                      ./images/cashless_payment_desktop@2x.webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/cashless_payment_desktop.jpg    1x,
+                      ./images/cashless_payment_desktop@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/cashless_payment_tablet.webp    1x,
+                      ./images/cashless_payment_tablet@2x.webp 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/cashless_payment_tablet.jpg    1x,
+                      ./images/cashless_payment_tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/cashless_payment_mobile.webp    1x,
+                      ./images/cashless_payment_mobile@2x.webp 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/cashless_payment_mobile.jpg    1x,
+                      ./images/cashless_payment_mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    class="image"
+                    src="./images/cashless_payment_mobile.jpg"
+                    alt="Scanning QR code"
+                    width="396"
+                    height="300"
+                  />
+                </picture>
                 <div class="work-overlay">
                   <div class="work-descr">
                     <p>
@@ -205,13 +293,57 @@
             </li>
             <li class="item">
               <div class="work-thumb">
-                <img
-                  class="image"
-                  src="./images/meditaion_app_on_iphone_and_macbook.jpg"
-                  alt="App on gadjets"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/meditaion_app_desktop.webp    1x,
+                      ./images/meditaion_app_desktop@2x.webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/meditaion_app_desktop.jpg    1x,
+                      ./images/meditaion_app_desktop@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/meditaion_app_tablet.webp    1x,
+                      ./images/meditaion_app_tablet@2x.webp 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/meditaion_app_tablet.jpg    1x,
+                      ./images/meditaion_app_tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/meditaion_app_mobile.webp    1x,
+                      ./images/meditaion_app_mobile@2x.webp 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/meditaion_app_mobile.jpg    1x,
+                      ./images/meditaion_app_mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    class="image"
+                    src="./images/meditaion_app_desktop.jpg"
+                    alt="App on gadjets"
+                    width="396"
+                    height="300"
+                  />
+                </picture>
                 <div class="work-overlay">
                   <div class="work-descr">
                     <p>
@@ -229,13 +361,57 @@
             </li>
             <li class="item">
               <div class="work-thumb">
-                <img
-                  class="image"
-                  src="./images/driver_in_car.jpg"
-                  alt="Driver in taxi"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/taxi_service_desktop.webp    1x,
+                      ./images/taxi_service_desktop@2x.webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/taxi_service_desktop.jpg    1x,
+                      ./images/taxi_service_desktop@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/taxi_service_tablet.webp    1x,
+                      ./images/taxi_service_tablet@2x.webp 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/taxi_service_tablet.jpg    1x,
+                      ./images/taxi_service_tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/taxi_service_mobile.webp    1x,
+                      ./images/taxi_service_mobile@2x.webp 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/taxi_service_mobile.jpg    1x,
+                      ./images/taxi_service_mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    class="image"
+                    src="./images/taxi_service_desktop.jpg"
+                    alt="Driver in taxi"
+                    width="396"
+                    height="300"
+                  />
+                </picture>
                 <div class="work-overlay">
                   <div class="work-descr">
                     <p>
@@ -253,13 +429,57 @@
             </li>
             <li class="item">
               <div class="work-thumb">
-                <img
-                  class="image"
-                  src="./images/screen_illustrations.jpg"
-                  alt="Screen Illustrations"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/screen_illustrations_desktop.webp    1x,
+                      ./images/screen_illustrations_desktop@2x.webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/screen_illustrations_desktop.jpg    1x,
+                      ./images/screen_illustrations_desktop@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/screen_illustrations_tablet.webp    1x,
+                      ./images/screen_illustrations_tablet@2x.webp 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/screen_illustrations_tablet.jpg    1x,
+                      ./images/screen_illustrations_tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/screen_illustrations_mobile.webp    1x,
+                      ./images/screen_illustrations_mobile@2x.webp 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/screen_illustrations_mobile.jpg    1x,
+                      ./images/screen_illustrations_mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    class="image"
+                    src="./images/screen_illustrations_desktop.jpg"
+                    alt="Screen Illustrations"
+                    width="396"
+                    height="300"
+                  />
+                </picture>
                 <div class="work-overlay">
                   <div class="work-descr">
                     <p>
@@ -277,13 +497,57 @@
             </li>
             <li class="item">
               <div class="work-thumb">
-                <img
-                  class="image"
-                  src="./images/girl_with_iphone.jpg"
-                  alt="Girl with iphone"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/online_courses_desktop.webp    1x,
+                      ./images/online_courses_desktop@2x.webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/online_courses_desktop.jpg    1x,
+                      ./images/online_courses_desktop@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/online_courses_tablet.webp    1x,
+                      ./images/online_courses_tablet@2x.webp 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/online_courses_tablet.jpg    1x,
+                      ./images/online_courses_tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/online_courses_mobile.webp    1x,
+                      ./images/online_courses_mobile@2x.webp 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/online_courses_mobile.jpg    1x,
+                      ./images/online_courses_mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    class="image"
+                    src="./images/online_courses_desktop.jpg"
+                    alt="Girl with iphone"
+                    width="396"
+                    height="300"
+                  />
+                </picture>
                 <div class="work-overlay">
                   <div class="work-descr">
                     <p>
@@ -301,13 +565,57 @@
             </li>
             <li class="item">
               <div class="work-thumb">
-                <img
-                  class="image"
-                  src="./images/instagram_stories_concept.jpg"
-                  alt="Instagram Stories Concept"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/instagram_stories_concept_desktop.webp    1x,
+                      ./images/instagram_stories_concept_desktop@2x.webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/instagram_stories_concept_desktop.jpg    1x,
+                      ./images/instagram_stories_concept_desktop@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/instagram_stories_concept_tablet.webp    1x,
+                      ./images/instagram_stories_concept_tablet@2x.webp 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/instagram_stories_concept_tablet.jpg    1x,
+                      ./images/instagram_stories_concept_tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/instagram_stories_concept_mobile.webp    1x,
+                      ./images/instagram_stories_concept_mobile@2x.webp 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/instagram_stories_concept_mobile.jpg    1x,
+                      ./images/instagram_stories_concept_mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    class="image"
+                    src="./images/instagram_stories_concept_desktop.jpg"
+                    alt="Instagram Stories Concept"
+                    width="396"
+                    height="300"
+                  />
+                </picture>
                 <div class="work-overlay">
                   <div class="work-descr">
                     <p>
@@ -325,13 +633,57 @@
             </li>
             <li class="item">
               <div class="work-thumb">
-                <img
-                  class="image"
-                  src="./images/women_with_organic_food.jpg"
-                  alt="Women with organic food"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/organic_food_desktop.webp    1x,
+                      ./images/organic_food_desktop@2x.webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/organic_food_desktop.jpg    1x,
+                      ./images/organic_food_desktop@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/organic_food_tablet.webp    1x,
+                      ./images/organic_food_tablet@2x.webp 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/organic_food_tablet.jpg    1x,
+                      ./images/organic_food_tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/organic_food_mobile.webp    1x,
+                      ./images/organic_food_mobile@2x.webp 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/organic_food_mobile.jpg    1x,
+                      ./images/organic_food_mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    class="image"
+                    src="./images/organic_food_desktop.jpg"
+                    alt="Women with organic food"
+                    width="396"
+                    height="300"
+                  />
+                </picture>
                 <div class="work-overlay">
                   <div class="work-descr">
                     <p>
@@ -349,13 +701,57 @@
             </li>
             <li class="item">
               <div class="work-thumb">
-                <img
-                  class="image"
-                  src="./images/barista_making_coffe.jpg"
-                  alt="Barista making coffe"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/fresh_coffee_desktop.webp    1x,
+                      ./images/fresh_coffee_desktop@2x.webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/fresh_coffee_desktop.jpg    1x,
+                      ./images/fresh_coffee_desktop@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/fresh_coffee_tablet.webp    1x,
+                      ./images/fresh_coffee_tablet@2x.webp 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/fresh_coffee_tablet.jpg    1x,
+                      ./images/fresh_coffee_tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/fresh_coffee_mobile.webp    1x,
+                      ./images/fresh_coffee_mobile@2x.webp 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/fresh_coffee_mobile.jpg    1x,
+                      ./images/fresh_coffee_mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    class="image"
+                    src="./images/fresh_coffee_desktop.jpg"
+                    alt="Barista making coffe"
+                    width="396"
+                    height="300"
+                  />
+                </picture>
                 <div class="work-overlay">
                   <div class="work-descr">
                     <p>
@@ -444,6 +840,6 @@
         </div>
       </div>
     </footer>
-		<script src="./js/mobile-menu.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

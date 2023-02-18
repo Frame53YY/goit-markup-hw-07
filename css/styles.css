@@ -99,6 +99,11 @@ body {
 	padding-top: 0;
 }
 
+.padding {
+	padding-top: 48px;
+	padding-bottom: 48px;
+}
+
 .section-title,
 .descr-list .title {
 	margin-bottom: 72px;
@@ -240,7 +245,7 @@ body {
 	width: 100%;
 	height: 100%;
 	background-color: #fff;
-
+	z-index: 1;
 	opacity: 1;
 	transition: opacity 250ms var(--main-cubic-bezier);
 }
@@ -473,6 +478,86 @@ body {
 	fill: var(--accent-color);
 }
 
+
+/* Portfolio */
+
+/* Filter */
+
+.filter {
+	display: flex;
+	justify-content: left;
+	flex-wrap: wrap;
+	width: 270px;
+	column-gap: 24px;
+	row-gap: 16px;
+
+	margin-bottom: 48px;
+}
+
+/* Example */
+
+.work-list {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 48px;
+}
+
+.work-list .item {
+	width: 396px;
+	box-shadow: none;
+
+	transition: box-shadow 250ms var(--main-cubic-bezier);
+}
+
+.work-list .item:hover,
+.work-list .item:focus {
+	box-shadow: var(--main-box-shadow);
+}
+
+.work-thumb {
+	position: relative;
+	overflow: hidden;
+}
+
+.work-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: var(--accent-color);
+	transform: translateY(100%);
+
+	transition: transform 250ms var(--main-cubic-bezier);
+}
+
+.work-descr {
+	position: absolute;
+	top: 40px;
+	left: 32px;
+	right: 32px;
+
+	color: var(--secondary-white-color);
+}
+
+.work-list .item:hover .work-overlay,
+.work-list .item:focus .work-overlay {
+	transform: translateY(0);
+}
+
+.work-content {
+	border-left: 0.5px solid #F4F4FD;
+	border-right: 0.5px solid #F4F4FD;
+	border-bottom: 0.5px solid #F4F4FD;
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.work-content {
+	padding: 32px 16px;
+}
+
+
+
 /* Footer */
 
 .footer {
@@ -571,7 +656,7 @@ footer {
 /* Button */
 
 .button {
-	padding: 12px 24px;
+	padding: 8px 16px;
 
 	color: var(--title-text-color);
 	background-color: var(--primary-white-color);

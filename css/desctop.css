@@ -8,6 +8,10 @@
 		padding-top: 120px;
 		padding-bottom: 120px;
 	}
+
+		.padding {
+			padding-top: 96px;
+		}
 /* Logo */
 .logo {
 	line-height: 1.33;
