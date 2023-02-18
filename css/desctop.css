@@ -107,9 +107,11 @@ footer {
 
 	.footer-container {
 		margin-right: 120px;
+		margin-bottom: 0;
 	}
 
 	.link-container {
 		margin-right: 80px;
+		margin-bottom: 0;
 	}
 }
