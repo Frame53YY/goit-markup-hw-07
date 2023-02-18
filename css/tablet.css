@@ -37,14 +37,15 @@
 	.contacts {
 		display: flex;
 		flex-wrap: wrap;
-		margin-left: 119px;
+		margin-left: 160px;
+		margin-top: 10px;
 	}
 
 	.contacts-link {
-		color: var(--primary-text-color);
-		text-decoration: none;
+		font-size: 12px;
+		line-height: 1.33;
 
-		transition: color 250ms var(--main-cubic-bezier);
+		letter-spacing: var(--btn-letter-spacing);
 	}
 
 	.site-nav .link:hover,

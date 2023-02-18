@@ -17,9 +17,18 @@
 	line-height: 1.33;
 }
 
+
 .contacts {
 	flex-wrap: unset;
 	margin-left: auto;
+	margin-top: 0;
+}
+
+.contacts-link {
+	font-size: 16px;
+	line-height: 1.5;
+
+	letter-spacing: var(--main-letter-spacing);
 }
 
 .contacts .item+.item {

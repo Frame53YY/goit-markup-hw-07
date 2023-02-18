@@ -16,6 +16,13 @@
 		}
 	}
 
+	.modal {
+		width: unset;
+		height: unset;
+		min-height: 586px;
+		min-width: 392px;
+	}
+
 }
 
 
