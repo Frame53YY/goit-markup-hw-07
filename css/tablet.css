@@ -89,7 +89,18 @@
 		padding-bottom: 112px;
 
 		min-height: 436px;
+
+		background-image: var(--gradient),
+				url("../images/people-office-desc.jpg");
 	}
+	
+		@media (min-device-pixel-ratio: 2),
+		(min-resolution: 192dpi),
+		(min-resolution: 2dppx) {
+			.hero {
+				background-image: var(--gradient), url(../images/people-office-desc@2x.jpg);
+			}
+		}
 
 	.hero-title {
 		margin-bottom: 40px;

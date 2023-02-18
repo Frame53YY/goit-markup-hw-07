@@ -1,13 +1,23 @@
-
 @media screen and (min-width: 428px) {
 	.container {
-			max-width: 428px;
+		max-width: 428px;
+	}
+
+	.hero {
+		background-image: var(--gradient),
+			url("../images/people-office-tab.jpg");
+	}
+
+	@media (min-device-pixel-ratio: 2),
+	(min-resolution: 192dpi),
+	(min-resolution: 2dppx) {
+		.hero {
+			background-image: var(--gradient), url(../images/people-office-tab@2x.jpg);
 		}
+	}
 
 }
-	
 
 
-@media screen and (min-width:480px) {
-	
-}
+
+@media screen and (min-width:480px) {}
