@@ -755,7 +755,7 @@ footer {
 	padding-right: 15px;
 
 
-	overflow: scroll;
+	overflow: auto;
 	width: 90%;
 	height: 75%;
 
